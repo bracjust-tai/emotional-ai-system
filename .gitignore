@@ -1,3 +1,47 @@
+# Enhanced Emotional AI System for Raspberry Pi 5 (16GB)
+
+Repository Structure:
+emotional-ai-rpi5/
+├── README.md
+├── requirements.txt
+├── setup.py
+├── config/
+│   ├── hardware_config.yaml    # Hardware-specific settings
+│   ├── model_config.yaml       # ML model configurations
+│   ├── rag_config.yaml        # RAG system parameters
+│   └── system_config.yaml     # System-wide settings
+├── src/
+│   ├── core/
+│   │   ├── __init__.py
+│   │   ├── emotion_engine.py      # Enhanced emotion processing
+│   │   ├── perception.py          # Multi-modal perception
+│   │   ├── rag_system.py          # Knowledge retrieval
+│   │   └── memory_manager.py      # Enhanced memory management
+│   ├── hardware/
+│   │   ├── __init__.py
+│   │   ├── camera.py              # Camera Module 3 interface
+│   │   ├── audio.py               # Audio processing
+│   │   ├── servos.py             # Servo control
+│   │   ├── leds.py               # LED matrix control
+│   │   └── sensors.py            # Environmental sensors
+│   ├── ml/
+│   │   ├── __init__.py
+│   │   ├── models/
+│   │   │   ├── vision.py         # Enhanced vision models
+│   │   │   ├── audio.py          # Audio processing models
+│   │   │   ├── fusion.py         # Sensor fusion
+│   │   │   └── emotion.py        # Emotion models
+│   │   ├── inference.py          # Optimized inference
+│   │   └── training.py           # Fine-tuning capabilities
+│   └── utils/
+│       ├── __init__.py
+│       ├── config.py
+│       └── logging.py
+└── scripts/
+    ├── install.sh
+    ├── setup_hardware.sh
+    └── optimize_system.sh
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
